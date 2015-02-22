@@ -1,0 +1,14 @@
+1) Extracting the columns from data set features. To do this, the naming convention of the columns listed in features.txt was used.
+   Specifically, *-std()* and *-mean()* were used as match strings. 33 standard deviation and 56 mean columns were found.
+   
+2) Merging each data set to one table. The data for each set (training and test) is distributed in multiple files. The data is first
+   merged to form a single data set. Specifically:
+   For each data set:
+ - subject_*, y_*, and the 99 mean and std columns from X_* are joined producing a table of 101 columns. 
+ - The activity column values obtained from the y_*.txt are renamed to corresponding activity names listed in activity_labels.txt.
+ - Set the column names appropriately - derive them from features.txt.
+
+3) Merging the 2 data sets. Both data sets have the same column names. In theory, they can be joined by any column name as they are non-intersecting.
+   In other words, the stack vertically, one below the other.
+
+4) Create a new table with activity, subject and average of each activity for the particular activity/subject combination.
