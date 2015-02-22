@@ -20,8 +20,10 @@ The following picture shows the expected structure for this source code to work:
 Program Inputs and Outputs
 --------------------------
 
-Program Inputs: There are no inputs to the program run_analysis.
-Command: In an R Shell prompt, change director to the location where run_analysis.R is located. Then run the following command:
-> runAnalysis()
-Output: results/avg_mean_and_stds_all_data.txt
+**Program Inputs:** There are no inputs to the program run_analysis.
+
+**Command:** In an R Shell prompt, change director to the location where run_analysis.R is located. 
+ Then run the following command: runAnalysis()
+
+**Output:** results/avg_mean_and_stds_all_data.txt
 
