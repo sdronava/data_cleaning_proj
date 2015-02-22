@@ -2,6 +2,14 @@
 The data cleaning course project repository. 
 ===========================================
 
+Overview
+--------
+* This document describes, the repository file structure, program inputs/outputs.
+* The algorithm of run_analysis program is described in algorithm.txt in this folder.
+* The CodeBook for the resulting data set is described in codebook.txt in this folder.
+* 
+
+
 Repository File Structure
 -------------------------
 The following picture shows the expected structure for this source code to work:
@@ -12,7 +20,10 @@ The following picture shows the expected structure for this source code to work:
 Program Inputs and Outputs
 --------------------------
 
-Program Inputs: There are no inputs to the program run_analysis.
-Command: In an R Shell prompt, change director to the location where run_analysis.R is located. Then run the following command:
-> runAnalysis()
-Output: results/avg_mean_and_stds_all_data.txt
+**Program Inputs:** There are no inputs to the program run_analysis.
+
+**Command:** In an R Shell prompt, change director to the location where run_analysis.R is located. 
+ Then run the following command: runAnalysis()
+
+**Output:** results/avg_mean_and_stds_all_data.txt
+
