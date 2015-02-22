@@ -6,7 +6,7 @@ Overview
 --------
 * This document describes, the repository file structure, program inputs/outputs.
 * The algorithm of run_analysis program is described in Algorithm.md in this folder.
-* The CodeBook for the resulting data set is described in codebook.txt in this folder.
+* The CodeBook for the resulting data set is described in codebook.md in this folder.
 * 
 
 
