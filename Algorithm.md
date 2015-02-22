@@ -11,7 +11,8 @@ This resulted in 33 mean and 33 standard deviation values.
 Therefore, together there are 66 calculated average columns per row. The total number of columns in the result set is 66 + 2 = 68. 
 The first two columns are the values of the grouping criteria - subject and activity respectively.
 
-** Output File Description  **
+**Output File Description**
+
 There are 30 subjects in the combined data set (train + test) and 6 activities that each subject participates in. 
 Therefore, there are 30x60 = 180 rows in the resulting set.
 Each row has 68 columns as described in the previous section.
@@ -24,7 +25,7 @@ Algorithm of run_analysis
 2. Merging each data set to one table. The data for each set (training and test) is distributed in multiple files. The data is first
    merged to form a single data set. Specifically:
    For each data set:
- - subject_*, y_*, and the 99 mean and std columns from X_* are joined producing a table of 101 columns. 
+ - subject_*, y_*, and the 99 mean and std columns from X_* are joined producing a table of 68 columns. 
  - The activity column values obtained from the y_*.txt are renamed to corresponding activity names listed in activity_labels.txt.
  - Set the column names appropriately - derive them from features.txt.
 
